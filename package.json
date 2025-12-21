@@ -21,8 +21,8 @@
     "pulsating",
     "animation"
   ],
-  "homepage": "https://github.com/Crystal-Creations-GbR/pulsating-circle",
-  "bugs": "https://github.com/Crystal-Creations-GbR/pulsating-circle/issues",
+  "homepage": "https://github.com/servely/pulsating-circle",
+  "bugs": "https://github.com/servely/pulsating-circle/issues",
   "files": [
     "dist",
     "src"
@@ -42,7 +42,7 @@
       "default": "./src/nuxt.mjs"
     }
   },
-  "repository": "https://github.com/Crystal-Creations-GbR/pulsating-circle",
+  "repository": "https://github.com/servely/pulsating-circle",
   "peerDependencies": {
     "vue": "^3.0.0",
     "vuetify": "^3.3.19"
