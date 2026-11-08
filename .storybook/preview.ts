@@ -29,6 +29,7 @@ export const globalTypes = {
 };
 
 const preview: Preview = {
+  tags: ["autodocs"],
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
     layout: "fullscreen",
