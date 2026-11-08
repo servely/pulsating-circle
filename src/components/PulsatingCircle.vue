@@ -111,7 +111,8 @@ function pulsatingCircleStyle(): string {
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+    animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s
+      infinite;
   }
 }
 </style>
