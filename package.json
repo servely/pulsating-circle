@@ -76,7 +76,7 @@
     "sass": "1.70.0",
     "semantic-release": "22.0.12",
     "storybook": "7.4.5",
-    "typescript": "5.2.2",
+    "typescript": "6.0.3",
     "vite": "8.3.8",
     "vite-plugin-dts": "3.6.0",
     "vue": "3.0.0",
