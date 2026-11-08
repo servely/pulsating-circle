@@ -78,7 +78,7 @@
     "storybook": "7.4.5",
     "typescript": "6.0.3",
     "vite": "8.3.8",
-    "vite-plugin-dts": "3.6.0",
+    "vite-plugin-dts": "5.1.2",
     "vue": "3.0.0",
     "vuetify": "3.3.19"
   }
