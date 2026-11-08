@@ -11,12 +11,12 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '18'
       - name: Cache node modules
-        uses: actions/cache@v3
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         id: cache
         env:
           cache-name: cache-node-modules
@@ -39,14 +39,14 @@ jobs:
       - yarn_build
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '18'
       - name: Cache node modules
-        uses: actions/cache@v3
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         id: cache
         env:
           cache-name: cache-node-modules
@@ -76,7 +76,7 @@ jobs:
       - semantic-release
     steps:
       - name: Keep `beta` up to date with `main` (fast-forward enabled)
-        uses: johannes-huther/sync-branch@v2
+        uses: johannes-huther/sync-branch@018da752bea04f9bd75647bc0728c734c578b1e2 # v2
         with:
           git_committer_name: ${{ secrets.BUMP_GIT_NAME }}
           git_committer_email: ${{ secrets.BUMP_GIT_EMAIL }}
