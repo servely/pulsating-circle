@@ -7,6 +7,7 @@
   "description": "A pulsating circle wrapped in a Vue component based on a [codepen](https://codepen.io/eereeska/pen/gOPdBZg) by eereeska",
   "scripts": {
     "lint": "eslint src/**/* --max-warnings 0",
+    "test:release-notes": "node scripts/check-release-notes.ts",
     "semantic-release": "semantic-release",
     "build": "vite build",
     "dev": "vite",
