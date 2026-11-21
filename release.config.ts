@@ -1,4 +1,6 @@
-module.exports = {
+import type { Options } from "semantic-release";
+
+const config: Options = {
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -57,3 +59,5 @@ module.exports = {
     { name: "alpha", prerelease: true },
   ],
 };
+
+export default config;
