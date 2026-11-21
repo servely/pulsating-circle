@@ -11620,10 +11620,10 @@ vue@3.5.45:
     "@vue/server-renderer" "3.5.45"
     "@vue/shared" "3.5.45"
 
-vuetify@3.3.19:
-  version "3.3.19"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.3.19.tgz#cd27f38c226a9f0faa5cdc163b1a7709f0c75a12"
-  integrity sha512-6/byccc79pq2LmveSgte/AXqyEXkq3aFMxKMwoizsDzDPH4vz/44wRx0+TxhiDk4+n8WOhMa2VlXq1xsJIi1HA==
+vuetify@3.13.8:
+  version "3.13.8"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.13.8.tgz#9a414632fbef1062ef112d7c2a959790c7d35365"
+  integrity sha512-Q/I4zVmkWBlTmy2oHEPvhfBQP/NQZBuXS1jaVhz0MzDUDNXnZN81EbnLcjJAgNrCb+tERgtozAm61lu4ux/g+w==
 
 walk-up-path@^3.0.1:
   version "3.0.1"
