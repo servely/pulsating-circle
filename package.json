@@ -45,7 +45,7 @@
   "repository": "https://github.com/servely/pulsating-circle",
   "peerDependencies": {
     "vue": "^3.0.0",
-    "vuetify": "^3.3.19"
+    "vuetify": "^3.5.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.2",
@@ -80,6 +80,6 @@
     "vite": "8.3.8",
     "vite-plugin-dts": "5.1.2",
     "vue": "3.5.45",
-    "vuetify": "3.3.19"
+    "vuetify": "3.13.8"
   }
 }
